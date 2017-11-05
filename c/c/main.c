@@ -172,7 +172,7 @@ void cont(){
 }
 
 int main(){
-	system("COLOR A");
+	system("color a");
     name();
     char my_String[/*numero de caracteres se em branco = 255*/] = {'S', 'a', 'm', 'u', 'e', 'l', '\0'}; //  \0 --> null --> define o fim do Array
     char my_Name[6] = "Samuel";
@@ -448,6 +448,10 @@ int main(){
         }
     } while (classs!=0);
 	//putc(<#int#>, <#FILE *#>);
+    //return
+    //calculadora
+    //maior
+    //string
 }
 /*
   _____                            _   ____                  _
