@@ -8,8 +8,8 @@
 ```markdown
 #include<stdio.h>
 
-`int main () {
-	_/**...Insert code here...**/_
-}`
+int main () {
+	_/*...Insert code here...*/_
+}
 ```
 
