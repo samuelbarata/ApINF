@@ -13,3 +13,7 @@ int main () {
 }
 ```
 
+### Feel free to donate bitcoins for no reason:
+```markdown
+16ZE7XwxLMiAwaygBHXqiGCmwPVeU9WCuw
+```
