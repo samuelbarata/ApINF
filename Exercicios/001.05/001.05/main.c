@@ -11,6 +11,7 @@
 int main() {
 	//int primos[255]={};
 	int j,sum;
+	unsigned long soma=0;
 	// i = numero a testar
 	for (float i = 1; i<1000000; i++){
 		sum=0;
@@ -24,10 +25,12 @@ int main() {
 					//verifica se a divisão é por si prorpio ou por 1 ou por outro valor
 					if(j==1 && sum==2){
 						printf("%f\n", i);
+						soma+=i;
 					}
 				}
 			}
 		}while(sum<2);
 	}
+	printf("A Soma e: %lu\n",soma);
 	return 0;
 }
