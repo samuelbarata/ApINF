@@ -14,18 +14,20 @@ int main() {
 	// i = numero a testar
 	for (float i = 1; i<1000000; i++){
 		sum=0;
-		for (float k = 1; k<=i; k++){
-			//divide o numero a testar por todos os anteriores
-			j = i/k;
-			// verifica se a divisão tem resto 0
-			if(j==i/k){
-				sum++;
-				//verifica se a divisão é por si prorpio ou por 1 ou por outro valor
-				if(j==1 && sum==2){
-					printf("%f\n", i);
+		do{
+			for (float k = 1; k<=i; k++){
+				//divide o numero a testar por todos os anteriores
+				j = i/k;
+				// verifica se a divisão tem resto 0
+				if(j==i/k){
+					sum++;
+					//verifica se a divisão é por si prorpio ou por 1 ou por outro valor
+					if(j==1 && sum==2){
+						printf("%f\n", i);
+					}
 				}
 			}
-		}
+		}while(sum<2);
 	}
 	return 0;
 }
