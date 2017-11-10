@@ -28,7 +28,7 @@ main(){
 		puts("Introduza um nome:");
 		//puts("");//tem um \n encorpurado #paragrafo
 		gets(nome);
-		if(nome[0] == 0){
+		if(nome[0] == '\0'){ 
 			return 0;
 		}
 		printf("O nome e: %s\n\n",nome);
