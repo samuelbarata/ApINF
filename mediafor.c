@@ -10,5 +10,5 @@ for(int num=1; num <= a; num++){
 	tot+=n1+n2;
 	printf("media do aluno %d: %f\n\n", num, (n1+n2)/2);
 }
-printf("Media da turma: %f\n", (tot)/a);
+printf("Media da turma: %f\n", (tot)/(a+a));
 }

@@ -66,6 +66,7 @@
 //#include<***.h>
 #include <string.h>
 #include <stdlib.h>
+#include <math.h>
 
 void name(){
     printf(" ________  ________  _____ ______   ___  ___  _______   ___\n");
@@ -425,8 +426,8 @@ int main(){
                 printf("%s\n\n", string1);
                 
                 printf("Para ver o comprimento de uma string usa-se strlen(string_name);\nint length_string1 = strlen(string1);\nprintf(\"%%d\", length_string1);\n");
-                int length_string1 = strlen(string1); ///strlen(string) = number of charecters in the string
-                printf("%d\n\n", length_string1);
+                unsigned long int length_string1 = strlen(string1); ///strlen(string) = number of charecters in the string
+				printf("%lu\n\n", length_string1);
                 cont();
                 break;
             case 14:
