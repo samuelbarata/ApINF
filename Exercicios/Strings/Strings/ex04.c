@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 int ex04(){
+	getchar();
 	puts("Introduza um texto com o maximo de 100 caracteres:");
 	char str1[100], str2[100];
 	gets(str1);

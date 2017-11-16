@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 void ex01(){
+	getchar();
 	puts("Introduza um texto com o maximo de 255 caracteres:");
 	char string[255];
 	gets(string);

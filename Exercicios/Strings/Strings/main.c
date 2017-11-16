@@ -9,9 +9,15 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-	//ex01();
-	//ex02();
-	//ex03();
-	//ex04();
+	puts("Escolha um ex (1 a 4):");
+	int op;
+	scanf("%d",&op);
+	switch(op){
+		case 1: ex01();break;
+		case 2:	ex02();break;
+		case 3:	ex03();break;
+		case 4: ex04();break;
+		default: return 0; break;
+	}
 	return 0;
 }
