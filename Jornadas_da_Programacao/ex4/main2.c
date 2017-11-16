@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
 	while (op!=4){
 		printf("\n\n//===[]==========================================================\\\\\n|| 1 || Somar os quadrados dos dois numeros e multiplicar por pi ||\n|| 2 || Subtrair um numero pelo outro e mostrar o resultado      ||\n|| 3 || Calcular a média dos dois numeros                        ||\n|| 4 || Sair do Programa                                         ||\n\\\\===[]==========================================================//\n\nEscolha uma opcao:\n");
 		scanf("%d", &op);
-		printf("O resultado e: %f\n",calculadora(a,b,op));
+		printf("O resultado e: %d\n",calculadora(a,b,op));
 	}
 	return 0;
 }
