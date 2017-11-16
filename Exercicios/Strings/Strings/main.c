@@ -10,6 +10,8 @@
 
 int main(int argc, const char * argv[]) {
 	//ex01();
-	ex02();
+	//ex02();
+	//ex03();
+	//ex04();
 	return 0;
 }

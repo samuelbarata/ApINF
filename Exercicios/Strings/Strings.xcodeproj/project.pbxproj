@@ -10,6 +10,8 @@
 		636DD2331FBDD2300082AA3F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 636DD2321FBDD2300082AA3F /* main.c */; };
 		636DD23D1FBDDD610082AA3F /* ex01.c in Sources */ = {isa = PBXBuildFile; fileRef = 636DD23C1FBDDD610082AA3F /* ex01.c */; };
 		636DD23F1FBDE6020082AA3F /* ex02.c in Sources */ = {isa = PBXBuildFile; fileRef = 636DD23E1FBDE6020082AA3F /* ex02.c */; };
+		636DD2411FBDE78D0082AA3F /* ex03.c in Sources */ = {isa = PBXBuildFile; fileRef = 636DD2401FBDE78D0082AA3F /* ex03.c */; };
+		636DD2431FBDEA0F0082AA3F /* ex04.c in Sources */ = {isa = PBXBuildFile; fileRef = 636DD2421FBDEA0F0082AA3F /* ex04.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		636DD2321FBDD2300082AA3F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		636DD23C1FBDDD610082AA3F /* ex01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex01.c; sourceTree = "<group>"; };
 		636DD23E1FBDE6020082AA3F /* ex02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex02.c; sourceTree = "<group>"; };
+		636DD2401FBDE78D0082AA3F /* ex03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex03.c; sourceTree = "<group>"; };
+		636DD2421FBDEA0F0082AA3F /* ex04.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex04.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				636DD23C1FBDDD610082AA3F /* ex01.c */,
 				636DD2321FBDD2300082AA3F /* main.c */,
+				636DD2421FBDEA0F0082AA3F /* ex04.c */,
+				636DD2401FBDE78D0082AA3F /* ex03.c */,
 				636DD23E1FBDE6020082AA3F /* ex02.c */,
 			);
 			path = Strings;
@@ -125,9 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636DD2431FBDEA0F0082AA3F /* ex04.c in Sources */,
 				636DD2331FBDD2300082AA3F /* main.c in Sources */,
 				636DD23F1FBDE6020082AA3F /* ex02.c in Sources */,
 				636DD23D1FBDDD610082AA3F /* ex01.c in Sources */,
+				636DD2411FBDE78D0082AA3F /* ex03.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
