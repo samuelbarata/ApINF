@@ -1,0 +1,33 @@
+
+SERIE 001
+
+1. Fazer um programa que imprima todos os numeros de 0 a 100.
+
+
+2.Fazer um programa que imprima todos os numeros impares.
+
+
+3. Alterar 2. de modo a que no fim este imprima a soma de todos os numeros impressos no ecra.
+
+
+4. Imprimir todos os numeros que sejam multiplos de 7 e 19 ate 1000000.
+
+
+5+. Imprimir todos os primos ate 1000000 e no fim imprimir a sua soma.
+
+
+6+. Optimizar o algoritmo de maneira a que este processe a informacao mais rapido. Caso
+	o programa corra rapido com '1000000', 
+aumentar este de maneira a que se note as optimizacoes
+
+Notas:
+-para todos os programas
+ e preciso usar ciclos(sugere-se 'for' mas o 'while' ou 'do while' tambem funcionam)
+-do 2 para a frente sugere-se a
+ utilizacao do operador '%' (ex: "var1 = var2 % 2;")
+-os exercicios que tem um '+' sao mais dificeis
+-no ultimo,
+ uma optimizacao possivel seria reduzir o numero de ciclos executados, ou seja, o 'for',
+em vez de executar 1000 vezes, 
+executa so 10. Para isto, e preciso recorrer a raciocinio matematico
+-aconselha se a pesquisa na internet
