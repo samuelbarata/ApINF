@@ -19,7 +19,7 @@ void dir_JdP(unsigned short int op){
 		case 3:jdp3();break;
 		case 4:jdp4_1();break;
 		case 5:jdp4_2();break;
-		case 6:fopen("jornadas_programacao.docx","r");break;
+		case 6:puts("/ApINF/JdP/jornadas_programacao.docx");break;
 		default:puts("Nao e uma opcao");break;
 	}
 }

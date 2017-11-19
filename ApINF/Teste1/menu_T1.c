@@ -20,7 +20,7 @@ void dir_T1(unsigned short int op){
 		case 4:tex4();break;
 		case 5:tex5();break;
 		case 6:tex6();break;
-		case 7:fopen("teste1.doc","r");break;
+		case 7:puts("/ApINF/Teste1/teste1.doc");break;
 		default:puts("Nao e uma opcao");break;
 	}
 }

@@ -19,7 +19,7 @@ void dir_OEX(unsigned short int op){
 		case 3:e001_02();break;
 		case 4:e001_04();break;
 		case 5:e001_05();break;
-		case 6:fopen("001.txt","r");break;
+		case 6:puts("/ApINF/Exercicios/001.txt");break;
 		default:puts("Nao e uma opcao");break;
 	}
 }
