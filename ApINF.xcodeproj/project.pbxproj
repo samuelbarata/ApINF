@@ -88,9 +88,9 @@
 
 /* Begin PBXFileReference section */
 		636867F51FC0C51E00FF5694 /* ApINF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ApINF; sourceTree = BUILT_PRODUCTS_DIR; };
-		636867F81FC0C51E00FF5694 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		636867F81FC0C51E00FF5694 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../main.c; sourceTree = "<group>"; };
 		63E8362F1FC0C56F002259D9 /* 0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 0.c; sourceTree = "<group>"; };
-		63E836321FC0C56F002259D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		63E836321FC0C56F002259D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		63E836351FC0C5AA002259D9 /* calcu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = calcu.c; sourceTree = "<group>"; };
 		63E836361FC0C5AB002259D9 /* maior.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maior.c; sourceTree = "<group>"; };
 		63E836371FC0C5AD002259D9 /* soma2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = soma2.c; sourceTree = "<group>"; };
