@@ -87,6 +87,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		63138C8F1FC1A778006C77BE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		636867F51FC0C51E00FF5694 /* ApINF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ApINF; sourceTree = BUILT_PRODUCTS_DIR; };
 		636867F81FC0C51E00FF5694 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../main.c; sourceTree = "<group>"; };
 		63E8362F1FC0C56F002259D9 /* 0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 0.c; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 		636867EC1FC0C51E00FF5694 = {
 			isa = PBXGroup;
 			children = (
+				63138C8F1FC1A778006C77BE /* .gitignore */,
 				636867F71FC0C51E00FF5694 /* ApINF */,
 				636867F61FC0C51E00FF5694 /* Products */,
 			);
